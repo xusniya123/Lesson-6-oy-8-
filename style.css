@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: yellow;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin-inline: auto;
+
+}
+
+.formUsers {
+    display: flex;
+    margin-top:   50px;
+   flex-direction: column;
+   gap: 30px;
+   width: 30%;
+   margin-left: auto;
+   margin-right: auto;
+  
+
+}
+
+.users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 5px;
+
+}
+
+.limitAge {
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 5px;
+
+}
+
+.btn {
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper {
+    margin-inline: auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 250px;
+    overflow: hidden;
+    text-align: start;
+    padding: 10px;
+}
